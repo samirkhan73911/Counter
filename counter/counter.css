@@ -1,0 +1,71 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'dosis', sans-serif;
+    font-display: swap;
+    background: linear-gradient(320deg, rgb(51, 4, 105), rgb(110, 56, 235), rgb(231, 32, 188)) no-repeat;
+}
+
+#section {
+
+    border: 3px solid hsl(180, 58%, 47%);
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+
+    background: rgba(128, 128, 128, 0.384);
+}
+
+.container {
+
+    text-align: center;
+
+}
+
+#header {
+    color: white;
+    font-style: inherit;
+    font-size: 5rem;
+    text-shadow: 3px 3px 5px rgb(76, 195, 241), -3px -3px 5px rgb(241, 169, 76);
+}
+
+#show {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20vw;
+    height: 10%;
+    color: white;
+    font-style: inherit;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 5px;
+    border: 3px solid hsl(180, 58%, 47%);
+    background-color: hwb(207 11% 57% / 0.219);
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+button {
+    margin: 5px 9px;
+    padding: 6px;
+    color: black;
+    background-color: rgb(16, 204, 179);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: hsl(172, 85%, 35%);
+
+}
